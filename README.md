@@ -4,18 +4,16 @@
 > 依赖
 - maven
 ```maven
-
-<dependency>
+   <dependency>
 	<groupId>com.keyejxptwn</groupId>
 	<artifactId>BottomNavigation</artifactId>
 	<version>1.0.0</version>
 	<type>pom</type>
-</dependency>
+   </dependency>
 ```
 - gradle
 ```gradle
-
-compile 'com.keyejxptwn:BottomNavigation:1.0.0'
+   compile 'com.keyejxptwn:BottomNavigation:1.0.0'
 ```
 > 代码使用
 ```java
