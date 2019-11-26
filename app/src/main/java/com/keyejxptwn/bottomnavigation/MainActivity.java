@@ -18,10 +18,11 @@ public class MainActivity extends AppCompatActivity implements BottomBar.OnCheck
         bottomBar = findViewById(R.id.bottomBar);
 
         initBottomNavigation();
-        bottomBar.setOnCheckedChangeListener(this);
+
     }
 
     private void initBottomNavigation() {
+        bottomBar.setOnCheckedChangeListener(this);
         bottomBar.setTextColor(R.color.colorPrimaryDark, R.color.colorAccent);
         bottomBar.addItem(getString(R.string.text_label1),R.drawable.icon_index_normal,R.drawable.icon_index_choose,"label1");
         bottomBar.addItem(getString(R.string.text_label2),R.drawable.icon_index_normal,R.drawable.icon_index_choose,"label1");
