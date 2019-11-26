@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BottomNavigation</string>
+    <string name="text_label1">分类1</string>
+    <string name="text_label2">分类2</string>
+    <string name="text_label3">分类3</string>
+    <string name="text_label4">分类4</string>
 </resources>

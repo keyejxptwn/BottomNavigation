@@ -9,7 +9,6 @@ import com.keyejxptwn.bottomnavigationlib.BottomBar;
 
 public class MainActivity extends AppCompatActivity implements BottomBar.OnCheckedChangeListener {
     private BottomBar bottomBar;
-    private ViewPager viewPager;
     private int currentPos = 0;
 
     @Override
@@ -17,18 +16,17 @@ public class MainActivity extends AppCompatActivity implements BottomBar.OnCheck
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bottomBar = findViewById(R.id.bottomBar);
-        viewPager = findViewById(R.id.viewPage);
 
         initBottomNavigation();
         bottomBar.setOnCheckedChangeListener(this);
     }
 
     private void initBottomNavigation() {
-        bottomBar.setTextColor(R.color.colorPrimaryDark, R.color.colorPrimary);
-      /*  bottomBar.addItem();
-        bottomBar.addItem();
-        bottomBar.addItem();
-        bottomBar.addItem();*/
+        bottomBar.setTextColor(R.color.colorPrimaryDark, R.color.colorAccent);
+        bottomBar.addItem(getString(R.string.text_label1),R.drawable.icon_index_normal,R.drawable.icon_index_choose,"label1");
+        bottomBar.addItem(getString(R.string.text_label2),R.drawable.icon_index_normal,R.drawable.icon_index_choose,"label1");
+        bottomBar.addItem(getString(R.string.text_label3),R.drawable.icon_index_normal,R.drawable.icon_index_choose,"label1");
+        bottomBar.addItem(getString(R.string.text_label4),R.drawable.icon_index_normal,R.drawable.icon_index_choose,"label1");
         bottomBar.setCurrentItem(currentPos);
     }
 
