@@ -1,5 +1,7 @@
 # 底部导航栏BottomNavigation
 > Android常用的底部导航栏,无需编写布局,一行代码添加即可
+## 效果图
+![image](https://github.com/keyejxptwn/BottomNavigation/BottomNavigation.jpg)
 ## 使用方法
 > 依赖
 - maven
