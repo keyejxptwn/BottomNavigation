@@ -1,7 +1,7 @@
 # 底部导航栏BottomNavigation
 > Android常用的底部导航栏,无需编写布局,一行代码添加即可
 ## 效果图
-<div align=center><img width="150" height="600" src="https://github.com/keyejxptwn/BottomNavigation/blob/master/BottomNavigation.jpg"/></div>
+<div align=center><img width="200" height="600" src="https://github.com/keyejxptwn/BottomNavigation/blob/master/BottomNavigation.jpg"/></div>
 ## 使用方法
 > 依赖
 - maven
