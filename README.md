@@ -3,7 +3,7 @@
 ## 使用方法
 > 依赖
 ```maven
-- maven
+ - maven
 <dependency>
 	<groupId>com.keyejxptwn</groupId>
 	<artifactId>BottomNavigation</artifactId>
@@ -12,7 +12,7 @@
 </dependency>
 ```
 ```gradle
-- gradle
+ - gradle
 compile 'com.keyejxptwn:BottomNavigation:1.0.0'
 ```
 > 代码使用
