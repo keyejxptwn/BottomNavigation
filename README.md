@@ -16,7 +16,7 @@
 ```
 - gradle
 ```gradle
-   compile 'com.keyejxptwn:BottomNavigation:1.0.0'
+   implementation 'com.keyejxptwn:BottomNavigation:1.0.0'
 ```
 > 代码使用
 ```java
